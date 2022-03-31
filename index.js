@@ -37,7 +37,7 @@ let banco = {
         for (let i = 0; i < this.clientes.length; i++) {
             if (this.clientes[i].titular == titular) {
                console.log(this.clientes[i]);
-            }
+            } 
         }
     }
 }
